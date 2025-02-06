@@ -49,7 +49,7 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route("/hello")
     def hello():
-        print("hello")
+        # print("hello")
         return "Hello, World!"
 
     return app
