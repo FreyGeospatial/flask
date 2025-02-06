@@ -1,0 +1,22 @@
+[project]
+name = "flask-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "FreyGeospatial"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask (==3.1.0)",
+    "ratelimit (==2.2.1)",
+    "pytest (==8.3.4)",
+    "requests (==2.32.3)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

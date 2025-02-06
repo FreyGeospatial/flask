@@ -12,3 +12,5 @@ It is instead better to create a Flask instance inside a function, which is know
 If you load http://127.0.0.1:5000/hello in a web browser, you will get the text or html returned by the application, as well as a the print statement in the console.
 
 If you run `curl http://127.0.0.1:5000/hello`, anything that is returned by the app will be returned by the API.
+
+to test performance of API, run `pytest`.
